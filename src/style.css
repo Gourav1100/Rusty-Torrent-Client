@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+button:hover {
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+	transition: all 0.25s ease-in-out;
+}
+
+.mat-mdc-menu-content {
+	padding: 0px !important;
+}
+.mat-mdc-menu-panel {
+	background: transparent !important;
+	border-radius: 0.75rem !important;
+}

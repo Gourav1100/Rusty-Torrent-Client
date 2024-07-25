@@ -1,0 +1,20 @@
+<div [className]="_theme.theme?.body">
+	<div [className]="_theme.theme?.header">
+		<span>
+			<button mat-fab [matTooltip]="getTranslation('add_torrent')">
+				<mat-icon>add</mat-icon>
+			</button>
+			<button mat-fab extended [matTooltip]="getTranslation('add_magnet')">
+				<mat-icon>link</mat-icon>
+				<span>Magnet</span>
+			</button>
+		</span>
+		<span>
+			<app-search-bar [theme]="_theme.theme"></app-search-bar>
+			<button mat-fab (click)="_theme.nextTheme()" [matTooltip]="getTranslation('ui_mode.' + _theme.mode)">
+				<mat-icon>{{ _theme.mode }}</mat-icon>
+			</button>
+			<app-settings [theme]="_theme.theme"></app-settings>
+		</span>
+	</div>
+</div>

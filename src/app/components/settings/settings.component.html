@@ -1,0 +1,16 @@
+<button mat-fab [matTooltip]="getTranslation('settings')" [matMenuTriggerFor]="menu">
+	<mat-icon>settings</mat-icon>
+</button>
+<mat-menu #menu="matMenu" class="m-2">
+	<div [class]="theme?.body_secondary">
+		<button mat-menu-item [className]="theme?.settings_item">
+			<mat-icon>download_2</mat-icon><span>{{ "SETTINGS.DOWNLOAD_LOCATION" | translate }}</span>
+		</button>
+		<button mat-menu-item [className]="theme?.settings_item">
+			<mat-icon>view_column</mat-icon><span>{{ "SETTINGS.METADATA_COLUMNS" | translate }}</span>
+		</button>
+		<button mat-menu-item [className]="theme?.settings_item">
+			<mat-icon>power_settings_new</mat-icon><span>{{ "SETTINGS.EXIT" | translate }}</span>
+		</button>
+	</div>
+</mat-menu>

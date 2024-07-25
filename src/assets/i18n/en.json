@@ -1,0 +1,22 @@
+{
+	"NOTE": "Use Component names as keys to this json.",
+	"APP-ROOT": {
+		"ADD_TORRENT": "Add Torrent File",
+		"ADD_MAGNET": "Add Magnet Link",
+		"UI_MODE": {
+			"LIGHT_MODE": "Light Mode",
+			"DARK_MODE": "Dark Mode",
+			"BRIGHTNESS_AUTO": "Auto Mode"
+		}
+	},
+	"SEARCH-BAR": {
+		"SEARCH": "Search",
+		"SEARCH_TORRENT": "Search Torrent ..."
+	},
+	"SETTINGS": {
+		"SETTINGS": "Settings",
+		"DOWNLOAD_LOCATION": "Download Location",
+		"METADATA_COLUMNS": "Metadata Columns",
+		"EXIT": "Close Application"
+	}
+}
