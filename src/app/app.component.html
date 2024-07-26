@@ -1,7 +1,7 @@
 <div [className]="_theme.theme?.body">
 	<div [className]="_theme.theme?.header">
 		<span>
-			<button mat-fab [matTooltip]="getTranslation('add_torrent')">
+			<button mat-fab [matTooltip]="getTranslation('add_torrent')" (click)="addFile()">
 				<mat-icon>add</mat-icon>
 			</button>
 			<button mat-fab extended [matTooltip]="getTranslation('add_magnet')">

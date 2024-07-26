@@ -14,6 +14,10 @@ import StorageService from "./services/storage.service";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
 import { FormsModule } from "@angular/forms";
+import { MatDialogModule } from "@angular/material/dialog";
+import { MatTabsModule } from "@angular/material/tabs";
+import { MatTreeModule } from "@angular/material/tree";
+import { MatCheckboxModule } from "@angular/material/checkbox";
 
 @NgModule({
 	imports: [RouterOutlet],
@@ -31,6 +35,10 @@ import { FormsModule } from "@angular/forms";
 		MatFormFieldModule,
 		MatInputModule,
 		FormsModule,
+		MatDialogModule,
+		MatTabsModule,
+		MatTreeModule,
+		MatCheckboxModule,
 	],
 	providers: [StorageService, TranslateService, ThemeService],
 })

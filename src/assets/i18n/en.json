@@ -7,7 +7,8 @@
 			"LIGHT_MODE": "Light Mode",
 			"DARK_MODE": "Dark Mode",
 			"BRIGHTNESS_AUTO": "Auto Mode"
-		}
+		},
+		"ADD_TORRENT_DIALOG": "Select Torrent File"
 	},
 	"SEARCH-BAR": {
 		"SEARCH": "Search",
@@ -18,5 +19,10 @@
 		"DOWNLOAD_LOCATION": "Download Location",
 		"METADATA_COLUMNS": "Metadata Columns",
 		"EXIT": "Close Application"
+	},
+	"TORRENT-DOWNLOAD-DIALOG": {
+		"FILES": "Files",
+		"TRACKERS": "Trackers",
+		"LOADING_METADATA": "LOADING METADATA"
 	}
 }

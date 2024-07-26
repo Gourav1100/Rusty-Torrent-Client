@@ -11,8 +11,10 @@ edition = "2021"
 tauri-build = { version = "1", features = [] }
 
 [dependencies]
-tauri = { version = "1", features = ["shell-open"] }
+tauri = { version = "1", features = [ "dialog-all", "shell-open"] }
 serde = { version = "1", features = ["derive"] }
+cratetorrent = "0.1.0"
+tokio = {version = "1", features = ["full"] }
 serde_json = "1"
 
 [features]

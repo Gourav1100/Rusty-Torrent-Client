@@ -10,3 +10,6 @@ export const SETTINGS_PREFIX = "SETTINGS.";
 
 // Search Bar
 export const SEARCHBAR_PREFIX = "SEARCH-BAR.";
+
+// Torrent Download Dialog
+export const TORRENT_DOWNLOAD_DIALOG_PREFIX = "TORRENT-DOWNLOAD-DIALOG.";
